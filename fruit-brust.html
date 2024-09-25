@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Brust Clone</title>
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- daisy khala -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- font family link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!--font awesome  -->
+  <script src="https://kit.fontawesome.com/9668e05192.js" crossorigin="anonymous"></script>
+
+  <!-- custom property -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'color-primary': '#f85559',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- custom font family -->
+  <style>
+    .font-inter {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-inter">
+  <header class="max-w-7xl mx-auto ">
+    <!-- navbar -->
+    <nav class="bg-color-primary flex text-white justify-between p-7  my-10 rounded-full justify-center items-center">
+      <div class="list-none flex flex-col lg:flex-row gap-5">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">All Fruits</a></li>
+      </div>
+      <div class="flex items-center">
+        <img src="./images/logo.png" alt="">
+        <h1>Fruit Brust</h1>
+      </div>
+
+      <div class="flex bg-white p-5  text-gray-700  rounded-full hidden lg:flex">
+
+
+        <input class="bg-transparent" type="text" name=" " id="" placeholder="Search here">
+        <button class=" "><i class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+
+      </div>
+    </nav>
+    <!-- nav 2 -->
+   
+  </header>
+  <main>
+    <div
+  class="hero min-h-screen"
+  style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+      <p class="mb-5">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
